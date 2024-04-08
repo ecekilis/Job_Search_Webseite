@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.container-fluid a {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: whitesmoke !important;
+}
+
+.navbar-nav a {
+    color: rgb(180, 180, 180) !important;
+    transition: .5s;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+.navbar-nav a:hover {
+    color: white !important;
+}
+
+/* banner */
+
+.container-banner {
+    width: 100%;
+    height: 80vh;
+    color: white;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/group.jpeg);
+}
+
+.banner h1 {
+    padding-top: 170px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px orange;
+
+}
+
+/* input */
+.form {
+
+    margin: -50px auto 0;
+    padding: 40px;
+    width: 900px;
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+
+.container input {
+
+    border: none;
+    padding: 7px;
+    margin: 5px 10px;
+
+}
+
+
+/* populer work*/
+
+
+.title {
+    text-align: center;
+    margin: 100px 0 50px 0;
+    color: rgba(0, 0, 0, 0.733);
+
+}
+
+
+
+.title::before {
+    content: '';
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    margin-top: -10px;
+    z-index: -10;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 30px;
+
+
+}
+
+.populer-work .logos {
+    margin: 30px 0;
+}
+
+.populer-work .logos img {
+    width: 80px;
+    margin: 0 10px;
+
+}
+
+
+/* son guncellemeler */
+
+.last-update {
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+.container-lastUpdate {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+
+.container-lastUpdate .p-title {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.jobs-desc {
+    background-color: beige;
+    padding: 10px 20px;
+}
+
+.jobs-desc h1 {
+    color: rgba(0, 0, 0, 0.842);
+}
+
+.jobs-desc i {
+    color: #77d1b1;
+}
+
+.jobs-desc small {
+    padding: 2px 4px;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+.jobs-desc a {
+    text-decoration: none;
+    float: right;
+    color: #b6bed2;
+}
+
+.jobs-desc .apply-btn {
+    width: 100%;
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    margin: 20px 0;
+    padding: 10px;
+    height: 45px;
+}
+
+.jobs-desc button {
+    border: 1px solid white;
+    color: beige;
+    background-color: transparent;
+    padding: 0 5px;
+    float: right;
+}
+
+.page-link {
+
+    text-decoration: none !important;
+
+}
+
+.page-link li {
+    text-decoration: none !important;
+}
+
+.numbers ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.numbers ul li {
+    padding: 2px 7px;
+    font-size: 17px;
+    margin: 10px 3px;
+
+}
+
+.numbers ul .active {
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+
+.numbers ul li:hover {
+
+    color: white;
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+
+}
+
+/*istatikler*/
+
+
+.istatikler .row {
+    width: 90%;
+    margin: 50px auto;
+
+
+}
+
+.stats-box {
+    margin: 20px 0px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(110, 130, 208, 0.18) 0px 2px 40px;
+}
+
+
+
+/* is ilanlari */
+
+.footer {
+    padding: 50px 0;
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+
+.footer img {
+    max-width: 120px;
+}
+
+.footer h3,
+.footer i {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.footer p {
+    font-size: 22px;
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.footer .last {
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
